@@ -1,11 +1,11 @@
 cask "agentenv-manager" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "5f6c41274106b2707012fe75746c48b65b5de4bb1f41b89e49e1add83bfd8f53",
-         intel: "3a6fed5b94ea3fb56003438758e954ce652af4058fc4da3914ab5503eb5e10fa"
+  version "0.1.1"
+  sha256 arm:   "21c85c3996cce982942b8efcf2144deafa154f3a73de46737115c91c8267cb45",
+         intel: "55cf02e940f7bf99b665803ccdb0737291f5df023970a66610ba2dac4a97986a"
 
-  url "https://github.com/chroming/agentenv-manager/releases/download/v#{version}/AgentEnv-Manager-#{version}-mac-#{arch}.dmg"
+  url "https://github.com/chroming/agentenv-manager/releases/download/v#{version}/AgentEnv-Manager-#{version}-mac-#{arch}-homebrew.dmg"
   name "AgentEnv Manager"
   desc "Manage reusable local AI Agent environments"
   homepage "https://github.com/chroming/agentenv-manager"
