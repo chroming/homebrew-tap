@@ -1,9 +1,9 @@
 cask "agentenv-manager" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.9"
-  sha256 arm:   "f82a3570807682b07e30d54cdb3075e8d2096477b87a9d23f48387856a7cf2ad",
-         intel: "1d4965f79a1cefe28e81df8691f4d3cdf91d55957fecff03291700f3504c6b4b"
+  version "0.1.10"
+  sha256 arm:   "a7e37cc6d94453b36fd44f52be9506b689dc7591e4c0454523ed5a76b1e1eb2d",
+         intel: "c0e613daf7201239ec4961f513d621ad9ad56e25e3176f8c011c7c89d13537ec"
 
   url "https://github.com/chroming/agentenv-manager/releases/download/v#{version}/AgentEnv-Manager-#{version}-mac-#{arch}-homebrew.dmg"
   name "AgentEnv Manager"
